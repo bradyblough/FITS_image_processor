@@ -32,7 +32,9 @@ pip install numpy matplotlib astropy
 python main.py
 ```
 
-3. **View the Result**: The script will display the median image using the`matplotlib` library. 
+3. **View the Result**: The script will display the median image using the`matplotlib` library.
+
+  ![Median Image Thumbnail](result.png)
 
 ## Additional Info
 This project was inspired by the course "Data-Driven Astronomy" on Coursera. This was my first foray into the astronomical research space, and so this project means a lot to me.
