@@ -2,7 +2,7 @@ import numpy as np
 from astropy.io import fits
 import matplotlib.pyplot as plt  
 
-files = ['stack\data\image0.fits', 'stack\data\image1.fits', 'stack\data\image2.fits', 'stack\data\image3.fits', 'stack\data\image4.fits', 'stack\data\image5.fits', 'stack\data\image6.fits', 'stack\data\image7.fits', 'stack\data\image8.fits', 'stack\data\image9.fits', 'stack\data\image10.fits', 'stack\data\image11.fits']  
+files = ['data\image0.fits', 'data\image1.fits', 'data\image2.fits', 'data\image3.fits', 'data\image4.fits', 'data\image5.fits', 'data\image6.fits', 'data\image7.fits', 'data\image8.fits', 'data\image9.fits', 'data\image10.fits', 'data\image11.fits']   
 
 def median_fits(files):
     if not files:  
