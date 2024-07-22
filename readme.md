@@ -25,14 +25,14 @@ pip install numpy matplotlib astropy
 
 ## Usage
 
-1. **Prepare FITS Files**: Place your FITS files in a directory. The script currently expects files to be in a `stack\data` subdirectory.
-2. **Run the Script**: Execute the script with Python. No additional arguments are needed.
+1. **Prepare FITS Files**: Place your FITS files in a directory. The script currently expects files to be in a `FITS_image_processor\data` subdirectory.
+2. **Run the Script**: Execute the script with Python.
 
 ```bash
 python main.py
 ```
 
-3. **View the Result**: The script will display the median image using `matplotlib`. The X-axis is labeled as 'Right Ascension (RA)'.
+3. **View the Result**: The script will display the median image using the`matplotlib` library. 
 
 ## Additional Info
 This project was inspired by the course Data-Driven Astronomy on Coursera. This my first foray into the astronomical research space, and so this project means a lot to me.
